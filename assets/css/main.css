@@ -130,7 +130,7 @@ form p {
 
 /*----------------------------------Navigation----------------------------------*/
 nav {
-margin-left: -10px;
+margin-left: -35px;
 }
 
 nav ul {
@@ -187,6 +187,10 @@ h1 a {
 	color: #cd6a00;
 	text-decoration: none;
 	padding-left: 15px;
+}
+h2 a {
+	color: #cd6a00;
+	text-decoration: none;
 }
 
 /*----------------------------------Content: CTA----------------------------------*/
@@ -349,6 +353,38 @@ margin-top: 50px;
   cursor: pointer;
 }
 
+.signupbutton {
+  margin-top: -60px;
+  float: right;
+  margin-right: 100px;
+  font-family: 'bebas_neueregular', Arial, sans-serif;
+  color: #FFFFFF !important;
+  font-size: 36px;
+  text-shadow: 1px 1px 0px #DE8152;
+  box-shadow: 1px 1px 1px #F9E5D4;
+  padding: 5px 60px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  border: 2px solid #B56219;
+  background: #63B8EE;
+  background: linear-gradient(top,  #CD6A00,  #B56222);
+  background: -ms-linear-gradient(top,  #CD6A00,  #B56222);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
+  background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
+  width: 200px;
+}
+.signupbutton:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #F07C00,  #B56222);
+  background: -ms-linear-gradient(top,  #F07C00,  #B56222);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F07C00), to(#B56222));
+  background: -moz-linear-gradient(top,  #F07C00,  #B56222);
+  cursor: hand;
+  cursor: pointer;
+}
+
 .gallerybutton a{
 	text-decoration: none;
 	color: #FFFFFF;
@@ -357,7 +393,26 @@ margin-top: 50px;
 	text-decoration: none;
 	color: #FFFFFF;
 }
+#viewcart {
+	clear: both;
+	float: right;
+}
 #amenityinfo {
+	float: left;
+	width: 400px;
+}
+#amenityinforacing {
+	display: none;
+	float: left;
+	width: 400px;
+}
+#amenityinfotrails {
+	display: none;
+	float: left;
+	width: 400px;
+}
+#amenityinfomudding {
+	display: none;
 	float: left;
 	width: 400px;
 }
@@ -373,7 +428,8 @@ margin-top: 50px;
 	height: 400px;
 }
 #thumbnails {
-margin-left: 50px;
+margin-left: 40px;
+margin-top: 20px;
 }
 #thumbnails img {
 margin: 5px;
@@ -431,6 +487,7 @@ width: 300px;
 }
 
 #contactform {
+	background-image: url("../images/texturedbgdark.png");
 	width: 800px;
 	height: 400px;
 	padding-left: 100px;
@@ -444,6 +501,9 @@ textarea {
 .largeinput {
 	width: 300px;
 	height: 30px;
+}
+#pixel {
+	border: none;
 }	
 
 /*----------------------------------Content: Text----------------------------------*/
@@ -544,8 +604,15 @@ li {
 	margin-left: -40px;
 }
 p.error {
-	color: red;
+	color: #ec5a33;
 	padding-bottom: 50px;
+	font-size: 15px;
+}
+
+p.signuperror {
+	color: #ec5a33;
+	margin-right: 20px;
+	padding-bottom: 20px;
 	font-size: 15px;
 }
 #contacterrors {

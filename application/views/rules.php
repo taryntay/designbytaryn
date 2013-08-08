@@ -23,8 +23,8 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin.</p>
 					<p>Quisque sit amet nisi eu libero elementum bibendum sed vel quam</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin.</p>
-					<p><img src="http://www.adobe.com/images/pdficon_large.png" alt="form1" /></p>
-					<p><img src="http://www.adobe.com/images/pdficon_large.png" alt="form2" /></p>
+					<p><a href=""><img src="http://www.adobe.com/images/pdficon_large.png" alt="form1" id="pixel" />for minors</a></p>
+					<p><a href=""><img src="http://www.adobe.com/images/pdficon_large.png" alt="form2" id="pixel" />for adults</a></p>
 			</div>
 		
 			<div class="racingforms">
@@ -36,8 +36,8 @@ Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
 						<li><p>Am interdum lobortis justo id sollicitudin.
 Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
 					</ol>
-					<p><img src="http://www.adobe.com/images/pdficon_large.png" alt="form1" /></p>
-					<p><img src="http://www.adobe.com/images/pdficon_large.png" alt="form2" /></p>
+					<p><a href=""><img src="http://www.adobe.com/images/pdficon_large.png" alt="form1" id="pixel" />for trucks</a></p>
+					<p><a href=""><img src="http://www.adobe.com/images/pdficon_large.png" alt="form2" id="pixel" />for ATV/UTVs</a></p>
 			</div>
 		</div>
 </div>

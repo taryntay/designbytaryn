@@ -8,7 +8,7 @@
 		
 		<h2>Newsletter</h2>
 			<p>Signing up for the Taylor County Boondocks Mud Park newsletter is a great way to stay connected. By signing up, you will have access to emails with the newest and most up-to-date must-know info about upcoming events, concerts, races and more. It only takes a few seconds to create your account for VIP access!</p>
-		<p><a href="signup.html">sign up to stay connected.</a></p>
+		<p><a href="<?php echo site_url(); ?>/login/signup">sign up to stay connected.</a></p>
 	</footer>
 	
 		<div id="copyright">
@@ -25,5 +25,7 @@
 
 </script>
 <script src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>libraries/js/site.js"></script>
 </body>
 </html>
