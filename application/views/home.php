@@ -1,27 +1,27 @@
 <div id="content_wrapper">
 		<div id="CTA">
-			<a href="<?php echo site_url(); ?>/events"><img src="<?php echo base_url(); ?>assets/images/CTAjuly4th.png"></a>
+			<p><a href="<?php echo site_url(); ?>/events"><img src="<?php echo base_url(); ?>assets/images/CTAjuly4th.png" alt="4th of July Event"/></a></p>
 			<p class="ctabutton"><a href="<?php echo site_url(); ?>/shop">BUY TICKETS NOW!</a></p>
 		</div>
 
 		<div class="events_container">
 			<div class="left">
-				<img src="<?php echo base_url(); ?>assets/images/homeimg1.png" id="column1img" alt="Adventure" />
+				<img src="<?php echo base_url(); ?>assets/images/homeimg1.png" id="column1img" alt="Man on ATV" />
 				<h2>What we offer</h2>
 				<p>Located on 3000 acres of land in Butler, Georgia, we have plenty of fun to offer!</p>
-					<ul><h4>
+					<ul>
 						<li>ATV/UTV Trails (70 miles to explore!)</li>
 						<li>Campgrounds</li>
 						<li>Racing and Drag Track</li>
 						<li>ATV Park</li>
 						<li>Mud Pits</li>
 						<li>Outdoor stage for concerts</li>
-					</h4></ul>
+					</ul>
 				<a href="<?php echo site_url(); ?>/info">learn more about our park.</a>
 			</div>
 		
 			<div class="right">
-			<img src="<?php echo base_url(); ?>assets/images/homeimg3.png" id="column3img">
+			<img src="<?php echo base_url(); ?>assets/images/homeimg3.png" id="column3img" alt="Kids on ATV" />
 				<h2>Come prepared!</h2>
 				<p>To ensure a fun time at the Boondocks, please review our rules and regulations before arriving at an event.</p>
 				<h4>Please remember:</h4>
@@ -34,7 +34,7 @@
 			</div>
 			
 			<div class="middle">
-				<img src="<?php echo base_url(); ?>assets/images/homeimg2.png" id="column2img">	
+				<img src="<?php echo base_url(); ?>assets/images/homeimg2.png" id="column2img" alt="People on a truck" />	
 				<h2>Upcoming Events</h2>
 				<h4>July 4th-7th</h4>
 					<p>Fourth of July Spectacular! Join us at the Boondocks for a weekend full of fireworks, fun and music! Colt ford will be performing live Saturday night.</p>

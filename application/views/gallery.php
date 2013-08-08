@@ -1,5 +1,6 @@
 <div id="content_wrapper">
-		<div id="photogallery">
+
+			<div id="thumbnails">
 			<?php
  				$dir = 'thumbs';
 				$file_display = array('jpg', 'jpeg', 'png', 'gif');
@@ -13,17 +14,17 @@
 					foreach ($dir_contents as $file) {
 		
 						if($file !== '.' && $file !== '..'){
-						echo '<a href="/'. $dir. '/'. $file.'"><img src="/'. $dir. '/'. $file.'" width="150" height="150" alt="'. $file .'"></a>';
+						echo '<a href="/'. $dir. '/'. $file.'" data-lightbox="roadtrip"><img src="/'. $dir. '/'. $file.'" width="150" height="150" alt="'. $file .'"></a>';
 						}
 					}
 				}
 			?>
+			</div>
+			<p class="gallerybutton"><a href="<?php echo site_url(); ?>/upload">UPLOAD A PHOTO</a></p>
 
-		<p class="gallerybutton"><a href="<?php echo site_url(); ?>/upload">UPLOAD A PHOTO</a></p>
-		</div>
 	
 		<div class="gallery_container">
-			<h2>View all videos on our Youtube account</h2>
+			<h2><a href="http://www.youtube.com/user/BohicaTrucksInc/videos">View all videos on our Youtube account</a></h2>
 			<div class="left">
 				<iframe width="300" height="215" src="http://www.youtube.com/embed/z2Dh4rWnoAU" frameborder="0" allowfullscreen></iframe>
 			</div>

@@ -255,12 +255,15 @@ margin-top: 50px;
 	color: #FFFFFF;
 }
 .gallerybutton {
+  clear: both;
+  float: right;
+  margin-right: 65px;
   font-family: 'bebas_neueregular', Arial, sans-serif;
   color: #FFFFFF !important;
   font-size: 36px;
   text-shadow: 1px 1px 0px #DE8152;
   box-shadow: 1px 1px 1px #F9E5D4;
-  padding: 7px 60px;
+  padding: 5px 60px;
   -moz-border-radius: 11px;
   -webkit-border-radius: 11px;
   border-radius: 11px;
@@ -273,6 +276,69 @@ margin-top: 50px;
   width: 200px;
 }
 .gallerybutton:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #F07C00,  #B56222);
+  background: -ms-linear-gradient(top,  #F07C00,  #B56222);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F07C00), to(#B56222));
+  background: -moz-linear-gradient(top,  #F07C00,  #B56222);
+  cursor: hand;
+  cursor: pointer;
+}
+
+.uploadbutton {
+  margin-right: 65px;
+  font-family: 'bebas_neueregular', Arial, sans-serif;
+  color: #FFFFFF !important;
+  font-size: 36px;
+  text-shadow: 1px 1px 0px #DE8152;
+  box-shadow: 1px 1px 1px #F9E5D4;
+  padding: 5px 60px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  border: 2px solid #B56219;
+  background: #63B8EE;
+  background: linear-gradient(top,  #CD6A00,  #B56222);
+  background: -ms-linear-gradient(top,  #CD6A00,  #B56222);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
+  background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
+  width: 200px;
+}
+.uploadbutton:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #F07C00,  #B56222);
+  background: -ms-linear-gradient(top,  #F07C00,  #B56222);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F07C00), to(#B56222));
+  background: -moz-linear-gradient(top,  #F07C00,  #B56222);
+  cursor: hand;
+  cursor: pointer;
+}
+
+.contactbutton {
+  clear: both;
+  margin-top: -60px;
+  float: right;
+  margin-right: 100px;
+  font-family: 'bebas_neueregular', Arial, sans-serif;
+  color: #FFFFFF !important;
+  font-size: 36px;
+  text-shadow: 1px 1px 0px #DE8152;
+  box-shadow: 1px 1px 1px #F9E5D4;
+  padding: 5px 60px;
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  border: 2px solid #B56219;
+  background: #63B8EE;
+  background: linear-gradient(top,  #CD6A00,  #B56222);
+  background: -ms-linear-gradient(top,  #CD6A00,  #B56222);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
+  background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
+  width: 200px;
+}
+.contactbutton:hover {
   color: #FFFFFF !important;
   background: #468CCF;
   background: linear-gradient(top,  #F07C00,  #B56222);
@@ -305,6 +371,12 @@ margin-top: 50px;
 	background-image: url("../images/texturedbgdark.png");
 	width: 900px;
 	height: 400px;
+}
+#thumbnails {
+margin-left: 50px;
+}
+#thumbnails img {
+margin: 5px;
 }
 
 #rulesnav{
@@ -359,10 +431,21 @@ width: 300px;
 }
 
 #contactform {
-	background-image: url("../images/texturedbgdark.png");
-	width: 900px;
+	width: 800px;
 	height: 400px;
+	padding-left: 100px;
+	padding-top: 50px;
 }
+
+textarea {
+	resize: none;
+}
+
+.largeinput {
+	width: 300px;
+	height: 30px;
+}	
+
 /*----------------------------------Content: Text----------------------------------*/
 .container {
 clear: both;
@@ -390,6 +473,7 @@ width: 900px;
 margin: auto;
 list-style-type: none;
 padding-top: 100px;
+margin-top: 176px;
 }
 
 .events_container img {
@@ -415,7 +499,9 @@ margin: auto;
 list-style-type: none;
 padding-top: 100px;
 }
-
+ul li{
+	font-weight: bold;
+}
 .left {
   float: left;
   width: 300px;
@@ -429,10 +515,28 @@ padding-top: 100px;
   width: 300px;
 }
 
+.middleAddress {
+  top: 10px;
+  margin-left: 300px;
+  margin-right: 320px;
+  margin-top: 60px;
+  width: 300px;
+}
+
 .right {
   float: right;
   width: 285px;
 
+}
+#map {
+  float: left;
+  width: 600px;
+  margin-left: -10px;
+}
+
+#address {
+	clear: both;
+	float: right;
 }
 
 li {
@@ -441,6 +545,13 @@ li {
 }
 p.error {
 	color: red;
+	padding-bottom: 50px;
+	font-size: 15px;
+}
+#contacterrors {
+	float: right;
+	margin-top: -300px;
+	margin-right: 100px;
 }
 #errors {
 	float: right;

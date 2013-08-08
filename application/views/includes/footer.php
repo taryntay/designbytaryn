@@ -1,9 +1,9 @@
 <footer>
 		<div id="icons">
-			<a href="www.youtube.com"><img src="<?php echo base_url(); ?>assets/images/youtubeicon.png" alt="youtube" /></a>
-			<a href="www.instagram.com"><img src="<?php echo base_url(); ?>assets/images/instagramicon.png" alt="instagram" /></a>
-			<a href="www.twitter.com"><img src="<?php echo base_url(); ?>assets/images/twittericon.png" alt="twitter" /></a>
-			<a href="www.facebook.com"><img src="<?php echo base_url(); ?>assets/images/facebookicon.png" alt="facebook" /></a>
+			<a href="http://www.youtube.com/user/BohicaTrucksInc/videos"><img src="<?php echo base_url(); ?>assets/images/youtubeicon.png" alt="youtube" /></a>
+			<a href="http://www.instagram.com"><img src="<?php echo base_url(); ?>assets/images/instagramicon.png" alt="instagram" /></a>
+			<a href="http://www.twitter.com"><img src="<?php echo base_url(); ?>assets/images/twittericon.png" alt="twitter" /></a>
+			<a href="https://www.facebook.com/TaylorCountyBoondocksMudPark"><img src="<?php echo base_url(); ?>assets/images/facebookicon.png" alt="facebook" /></a>
 		</div>
 		
 		<h2>Newsletter</h2>
@@ -14,8 +14,16 @@
 		<div id="copyright">
 			<p>Copyright &copy; <?php echo date("Y"); ?> Taryn Taylor Anderson and Design by Taryn | <?php echo anchor('terms', 'Terms &amp; Conditions')?></p>
 		</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-43031882-1', 'designbytaryn.com');
+  ga('send', 'pageview');
+
+</script>
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="http://localhost:8888/MDD1304/libraries/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
