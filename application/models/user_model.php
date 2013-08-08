@@ -29,12 +29,10 @@ class User_model extends CI_Model{
 		$insert = $this->db->insert('users', $new_user_insert_data);
 		
 		return $insert; //return the new user to the controller.
-		
 	}
 	
 	function getUser()
 	{
-		/*$id = 4;*/
 		$query = $this->db->query("SELECT * FROM users");
 		return $query->result(); //pass results user to the controller.
 	}

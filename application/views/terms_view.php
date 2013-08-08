@@ -1,11 +1,4 @@
-<div id="container">
-<div id="body">
-
-<?php 
-$logo = img('assets/images/logo.png');
-?>
-<p><?php echo anchor('site/bookworm', $logo, 'Home Page');?></p>
-		<h1>Terms & Conditions</h1>
+<h1>Terms & Conditions</h1>
 
 
 
@@ -71,11 +64,3 @@ This Agreement shall be governed by and construed in accordance with the substan
  
 <p>Choice of Law; Jurisdiction; Forum:
 Any dispute, controversy or difference which may arise between the parties out of, in relation to or in connection with this Agreement is hereby irrevocably submitted to the exclusive jurisdiction of the courts of Florida, to the exclusion of any other courts without giving effect to its conflict of laws provisions or your actual state or country of residence.
-
-		<?php echo form_open('site/bookworm');?><p><input type="submit" value="Home"></p><?php echo form_close();?>
-
-<div id="footer">
-<p>&copy; 2013 Taryn Taylor for Full Sail University<br /><a href="mailto:taryntay@fullsail.edu">Contact</a> | <?php echo anchor('site/terms', 'Terms of Use', 'Terms');?></p>
-</div>
-</div>
-</div>

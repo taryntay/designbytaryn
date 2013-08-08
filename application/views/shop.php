@@ -1,9 +1,9 @@
 <div id="content_wrapper">
 		<div id="event tickets">
-		<h2>Event Tickets</h2>
-		<h5>Choose your event weekend:</h5>
-		<h5>Quantity:</h5>
-		<h5>Price:</h5>
+			<h2>Event Tickets</h2>
+				<h5>Choose your event weekend:</h5>
+				<h5>Quantity:</h5>
+				<h5>Price:</h5>
 		</div>
 	
 		<div class="contact_container">
@@ -26,3 +26,4 @@
 				<h3>tcboondocks@gmail.com</h3>
 			</div>
 		</div>
+</div>

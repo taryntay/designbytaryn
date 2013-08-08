@@ -16,6 +16,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat.</p>
 			</div>
 		</div>
+		
 		<div class="rules_container">
 			<div class="waiverforms">
 				<h2>Waiver Forms</h2>
@@ -38,5 +39,5 @@ Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
 					<p><img src="http://www.adobe.com/images/pdficon_large.png" alt="form1" /></p>
 					<p><img src="http://www.adobe.com/images/pdficon_large.png" alt="form2" /></p>
 			</div>
-	</div>
-	</div>
+		</div>
+</div>

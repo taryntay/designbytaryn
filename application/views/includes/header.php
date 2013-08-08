@@ -16,24 +16,25 @@
 		<h1><a href="<?php echo site_url(); ?>/login">Taylor County Boondocks Mud Park</a></h1>
 		<!--<div class="logo"><a href="index.html"><img src="images/transparentlogo.png" alt="Taylor County Boondocks Mud Park"></a></div>-->
 		<div id="login">
-		<?php
-		if ($this->session->userdata('username') == true)
-		{
-			echo "You are logged in as {$this->session->userdata('username')}."; 
-			echo form_open('login/logout'); ?>
-			<p><input class="loginbutton" label="logout" type="submit" name="logout" value="Logout"></p>
-			<?php echo form_close();
-			}else{
-				echo form_open('login/validate_credentials'); ?>
-			<p><input type="text" label="username" name="username" id="username" placeholder="username" /></p>
-			<p><input type="password" label="password" name="password" id="password" placeholder="password" /></p>
-			<p><input class="loginbutton" label="login" type="submit" name="login" value="Login"></p>
-			<?php echo anchor('login/signup', 'create an account'); ?>
-			<?php echo form_close();?>
-		<?php
-		}?>
+			<?php
+				if ($this->session->userdata('username') == true)
+				{
+					echo "You are logged in as {$this->session->userdata('username')}."; 
+					echo form_open('login/logout'); ?>
+					<p><input class="loginbutton" label="logout" type="submit" name="logout" value="Logout"></p>
+					<?php echo form_close();
+				}else{
+					echo form_open('login/validate_credentials'); ?>
+					<p><input type="text" label="username" name="username" id="username" placeholder="username" /></p>
+					<p><input type="password" label="password" name="password" id="password" placeholder="password" /></p>
+					<p><input class="loginbutton" label="login" type="submit" name="login" value="Login"></p>
+					<?php echo anchor('login/signup', 'create an account'); ?>
+					<?php echo form_close();?>
+					<?php
+				}?>
 		</div>
 	</div>
+	
 	<nav>
 		<ul>
 			<li><a href="<?php echo site_url(); ?>/info">Park Info</a></li>

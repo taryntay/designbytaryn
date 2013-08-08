@@ -1,11 +1,10 @@
 <?php  
     class Gallery extends CI_Controller{  
     
-       function index()  //loads the login form view by default.
+       function index()  //load the gallery view.
         {  
-        	$data['main_content'] = 'gallery'; //dynamically generates the view.
+        	$data['main_content'] = 'gallery';
         	$this->load->view('includes/template', $data);
-        }
-		
-       	}  
+        }	
+    }  
 ?>

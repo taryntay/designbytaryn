@@ -4,7 +4,8 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor.</p>
 		</div>
 
-		<div id="amenitypictures"><p><a href="info.html"><img src="<?php echo base_url(); ?>assets/images/ammenities.png" id="amenityphoto" alt="Camping, ATV, Mudding, Racing" /></a></p>
+		<div id="amenitypictures">
+			<p><a href="info.html"><img src="<?php echo base_url(); ?>assets/images/ammenities.png" id="amenityphoto" alt="Camping, ATV, Mudding, Racing" /></a></p>
 		</div>
 	
 		<div class="info_container">
@@ -32,4 +33,4 @@ Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
 				<img src="<?php echo base_url(); ?>assets/images/racing.png">
 			</div>
 		</div>
-	</div>
+</div>

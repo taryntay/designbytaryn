@@ -1,7 +1,7 @@
 <?php  
     class Login extends CI_Controller{  
     
-       function index()  //loads the login form view by default.
+       function index()  //loads the homepage by default.
         {  
         	$data['main_content'] = 'home'; //dynamically generates the view.
         	$this->load->view('includes/template', $data);
@@ -21,9 +21,7 @@
         		
         		$this->session->set_userdata($data); //set the session with username and logged in = true.
         		
-        		//redirect('site/bookworm'); //redirect to the main app.
-        		
-        		redirect('login/index');
+        		redirect('login/index'); //after login redirect to the homepage.
         	}
         	
         	else //if credentials are not validated,
@@ -40,7 +38,7 @@
         	$this->load->view('includes/template', $data);
         }
         
-        function create_user() //when signup form is filled out, create user is run.
+        function create_user() //when signup form is filled out and submitted, create user is run.
         {
 			$this->load->library('form_validation');
 			//this library helps to check if the forms are validated.
@@ -55,7 +53,7 @@
 			$this->form_validation->set_rules('passwordConfirm', 'Confirm Password', 'trim|required|matches[password]');
 			//validate username and password inputs. must be greater than 4 chars and passwords match.
 			
-			$this->form_validation->set_message('is_unique', 'That username is already taken. Please try again.');
+			$this->form_validation->set_message('is_unique', 'That username is already taken. Please try again.'); //if username is taken in database.
 			
 			if($this->form_validation->run() == FALSE) //if it does not validate...
 			{
@@ -77,10 +75,9 @@
         			$this->load->view('includes/template', $data);
 				}
 			}
-        } //create user
-
-        	
-		public function logout() //logout function destroys the session and loads login form. runs when logout clicked.
+        }//create user function
+	
+		public function logout() //logout function destroys the session and loads login form. runs when logout button clicked.
 		{
 			$this->session->sess_destroy();
 			$this->index();

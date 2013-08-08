@@ -1,17 +1,12 @@
-Web Final Project by Taryn Taylor
+Web Final Project
+Taryn Taylor Anderson
+Full Sail University
+August 2013
 =======
 
-Taylor County Boondocks by Design by Taryn
+Taylor County Boondocks Mud Park Website
+by Design by Taryn
 
 url to working site: http://www.designbytaryn.com
 
-
-
-Note on sources:
-I learned to work with CodeIgniter by reading and following tutorials at the following sites:
-In particular, these helped me build the login and sign up pages, as well as data CRUD.
-
-http://net.tutsplus.com/sessions/codeigniter-from-scratch/
-
-http://ellislab.com/codeigniter/user-guide/
 
