@@ -22,9 +22,11 @@
 			</div>
 			
 			<div class="middleAddress">
-					<p>1209 West Fall Line Freeway 
-					<br /> Butler, GA
-					<br />31006</p>
+					<p>
+						1209 West Fall Line Freeway 
+						<br /> Butler, GA
+						<br />31006
+					</p>
 					<p>From GA 96: Located at Culverhouse Rd</p></div>
 			</div>
 		</div>

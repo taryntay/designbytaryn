@@ -2,18 +2,35 @@
 		<div id="rules">
 			<h3>Rules and Regulations</h3>
 			<div id="rulesnav">
-				<ul>
-					<li>General</li>
-					<li>Racing</li>
-					<li>Racing Class</li>
-					<li>ATV/UTV Mud Bog</li>
-					<li>Rules for Minors</li>
+				<ul id="rulestabs">
+					<li>General</a></li>
+					<li>Racing</a></li>
+					<li>Racing Class</a></li>
+					<li>ATV/UTV Mud Bog</a></li>
+					<li>Rules for Minors</a></li>
 				</ul>
 			</div>
 			<div id="rulestext">
-			<h2>General</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat.</p>
+				<div id="changinggeneral">
+				<h2>General</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor.</p>
+				</div>
+				<div id="changingracing">
+				<h2>Racing</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor.</p>
+				</div>
+				<div id="changingracingclass">
+				<h2>Racing Class</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor.</p>
+				</div>
+				<div id="changingmudbog">
+				<h2>Mud Bog</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor.</p>
+				</div>
+				<div id="changingminors">
+				<h2>Minors</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin. Quisque sit amet nisi eu libero elementum bibendum sed vel quam. Nam interdum lobortis justo id sollicitudin. Quisque convallis, nunc nec sodales adipiscing, nisl urna mattis erat, quis convallis felis sapien ac dolor.</p>
+				</div>
 			</div>
 		</div>
 		

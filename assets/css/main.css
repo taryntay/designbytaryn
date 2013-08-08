@@ -603,11 +603,14 @@ margin-top: 50px;
 .waiverforms{
 float: left;
 width: 300px;
+margin-left: 20px;
+margin-top: 50px;
 }
 
 .racingforms {
 float: right;
 width: 300px;
+margin-top: 50px;
 }
 
 #contactform {
@@ -615,9 +618,11 @@ width: 300px;
 	width: 800px;
 	height: 400px;
 	padding-left: 100px;
-	padding-top: 50px;
+	padding-top: 30px;
 }
-
+.newsletter {
+	color: #f1e4d7;
+}
 textarea {
 	resize: none;
 }
@@ -629,6 +634,18 @@ textarea {
 #pixel {
 	border: none;
 }	
+#changingracing {
+	display: none;
+}
+#changingracingclass {
+	display: none;
+}
+#changingminors {
+	display: none;
+}
+#changingmudbog {
+	display: none;
+}
 /*----------------------------------Footer----------------------------------*/
 footer {
 margin-top: 35px;

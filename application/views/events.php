@@ -1,6 +1,6 @@
 <div id="content_wrapper">
 		<div id="CTA">
-			<a href="<?php echo site_url(); ?>/events"><img src="<?php echo base_url(); ?>assets/images/CTAjuly4th.png"></a>
+			<p><a href="<?php echo site_url(); ?>/events"><img src="<?php echo base_url(); ?>assets/images/CTAjuly4th.png"></a></p>
 			<p class="ctabutton"><a href="<?php echo site_url(); ?>/shop">BUY TICKETS NOW!</a></p>
 		</div>
 		<div class="events_container">
@@ -18,16 +18,15 @@
 		
 			<div class="right">
 				<h2>More Upcoming Events</h2>
-					<ol>
-						<li><h4>September 13th</h4></li>
-						<li><p>Nam interdum lobortis justo id sollicitudin.Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
-						<li><h4>October 21st</h4></li>
-						<li><p>Nam interdum lobortis justo id sollicitudin.
-Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
-						<li><h4>November 12th</h4></li>
-						<li><p>Am interdum lobortis justo id sollicitudin.
-Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
-					</ol>
+						<h4>September 13th</h4>
+						<p>Nam interdum lobortis justo id sollicitudin.Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p>
+						<h4>October 21st</h4>
+						<p>Nam interdum lobortis justo id sollicitudin.
+Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p>
+						<h4>November 12th</h4>
+						<p>Am interdum lobortis justo id sollicitudin.
+Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p>
+					
 			</div>
 			
 			<div class="middle">

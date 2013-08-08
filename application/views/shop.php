@@ -22,7 +22,7 @@
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" id="pixel">
 			</form>
 			<!--end paypal code-->
-		</div>
+		
 		<!--Paypal View Cart Button -->
 		<div id="viewcart">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
@@ -32,6 +32,7 @@
 		<input type="image" src="http://www.designbytaryn.com/assets/images/viewcartbutton.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 		<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" id="pixel">
 		</form>
+		</div>
 		</div>
 <!--End View Cart Button-->
 	

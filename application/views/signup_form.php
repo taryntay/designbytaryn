@@ -15,7 +15,7 @@
 		<p><input type="text" name="email" id="email" class="largeinput" /></p>
 
 		<h2>Newsletter</h2>
-		<p><input type="checkbox" name="newsletter" value="newsletter" checked="checked" class="largecheckbox" />Sign up to receive email updates.</p>
+		<p class="newsletter"><input type="checkbox" name="newsletter" value="newsletter" checked="checked" class="largecheckbox" />Sign up to receive email updates.</p>
 
 		<h2>Login Info</h2>
 
