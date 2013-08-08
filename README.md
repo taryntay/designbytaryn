@@ -1,7 +1,5 @@
-Web Final Project
-Taryn Taylor Anderson
-Full Sail University
-August 2013
+Web Final Project by Taryn Taylor Anderson for Full Sail University August 2013
+Taylor County Boondocks Mud Park
 =======
 
 Taylor County Boondocks Mud Park Website
