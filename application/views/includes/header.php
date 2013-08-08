@@ -24,7 +24,7 @@
 				{
 					echo "You are logged in as {$this->session->userdata('username')}."; 
 					echo form_open('login/logout'); ?>
-					<p><input class="loginbutton" label="logout" type="submit" name="logout" value="Logout"></p>
+					<p><input class="loginbutton" id="logoutbutton" label="logout" type="submit" name="logout" value="Logout"></p>
 					<?php echo form_close();
 				}else{
 					echo form_open('login/validate_credentials'); ?>

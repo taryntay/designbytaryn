@@ -127,6 +127,11 @@ form p {
   cursor: hand;
   cursor: pointer;
 }
+#logoutbutton {
+	clear: both;
+	margin-top: 50px;
+	margin-right: 10px;
+}
 
 /*----------------------------------Navigation----------------------------------*/
 nav {
@@ -258,6 +263,7 @@ margin-top: 50px;
 	text-decoration: none;
 	color: #FFFFFF;
 }
+/*----------------------------------Buttons----------------------------------*/
 .gallerybutton {
   clear: both;
   float: right;
@@ -397,116 +403,8 @@ margin-top: 50px;
 	clear: both;
 	float: right;
 }
-#amenityinfo {
-	float: left;
-	width: 400px;
-}
-#amenityinforacing {
-	display: none;
-	float: left;
-	width: 400px;
-}
-#amenityinfotrails {
-	display: none;
-	float: left;
-	width: 400px;
-}
-#amenityinfomudding {
-	display: none;
-	float: left;
-	width: 400px;
-}
-#amenityphoto {
-	float: right;
-	margin-right: 35px;
-	margin-top: 10px;
-}
 
-#photogallery {
-	background-image: url("../images/texturedbgdark.png");
-	width: 900px;
-	height: 400px;
-}
-#thumbnails {
-margin-left: 40px;
-margin-top: 20px;
-}
-#thumbnails img {
-margin: 5px;
-}
-
-#rulesnav{
-	float: left;
-}
-
-#rules h3{
-margin-left: 100px;
-margin-top: 50px;
-}
-
-#rulesnav li{
-  font-family: arial;
-  color: #FFFFFF !important;
-  font-size: 14px;
-  text-shadow: 1px 1px 0px #DE8152;
-  box-shadow: 1px 1px 1px #F9E5D4;
-  padding: 5px 15px;
-  border: 2px solid #B56219;
-  background: #63B8EE;
-  background: linear-gradient(top,  #CD6A00,  #B56222);
-  background: -ms-linear-gradient(top,  #CD6A00,  #B56222);
-  background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
-  background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
-  margin-bottom: 20px;
-  margin-left: 100px;
-}
-#rulesnav li:hover {
-  color: #FFFFFF !important;
-  background: #468CCF;
-  background: linear-gradient(top,  #F07C00,  #B56222);
-  background: -ms-linear-gradient(top,  #F07C00,  #B56222);
-  background: -webkit-gradient(linear, left top, left bottom, from(#F07C00), to(#B56222));
-  background: -moz-linear-gradient(top,  #F07C00,  #B56222);
-  cursor: hand;
-  cursor: pointer;
-}
-#rulestext {
-	float: right;
-	width: 400px;
-	margin-right: 100px;
-}
-
-.waiverforms{
-float: left;
-width: 300px;
-}
-
-.racingforms {
-float: right;
-width: 300px;
-}
-
-#contactform {
-	background-image: url("../images/texturedbgdark.png");
-	width: 800px;
-	height: 400px;
-	padding-left: 100px;
-	padding-top: 50px;
-}
-
-textarea {
-	resize: none;
-}
-
-.largeinput {
-	width: 300px;
-	height: 30px;
-}
-#pixel {
-	border: none;
-}	
-
-/*----------------------------------Content: Text----------------------------------*/
+/*----------------------------------Content----------------------------------*/
 .container {
 clear: both;
 width: 900px;  
@@ -623,6 +521,114 @@ p.signuperror {
 #errors {
 	float: right;
 }
+#amenityinfo {
+	float: left;
+	width: 400px;
+}
+#amenityinforacing {
+	display: none;
+	float: left;
+	width: 400px;
+}
+#amenityinfotrails {
+	display: none;
+	float: left;
+	width: 400px;
+}
+#amenityinfomudding {
+	display: none;
+	float: left;
+	width: 400px;
+}
+#amenityphoto {
+	float: right;
+	margin-right: 35px;
+	margin-top: 10px;
+}
+
+#photogallery {
+	background-image: url("../images/texturedbgdark.png");
+	width: 900px;
+	height: 400px;
+}
+#thumbnails {
+margin-left: 40px;
+margin-top: 20px;
+}
+#thumbnails img {
+margin: 5px;
+}
+
+#rulesnav{
+	float: left;
+}
+
+#rules h3{
+margin-left: 100px;
+margin-top: 50px;
+}
+
+#rulesnav li{
+  font-family: arial;
+  color: #FFFFFF !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #DE8152;
+  box-shadow: 1px 1px 1px #F9E5D4;
+  padding: 5px 15px;
+  border: 2px solid #B56219;
+  background: #63B8EE;
+  background: linear-gradient(top,  #CD6A00,  #B56222);
+  background: -ms-linear-gradient(top,  #CD6A00,  #B56222);
+  background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
+  background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+#rulesnav li:hover {
+  color: #FFFFFF !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #F07C00,  #B56222);
+  background: -ms-linear-gradient(top,  #F07C00,  #B56222);
+  background: -webkit-gradient(linear, left top, left bottom, from(#F07C00), to(#B56222));
+  background: -moz-linear-gradient(top,  #F07C00,  #B56222);
+  cursor: hand;
+  cursor: pointer;
+}
+#rulestext {
+	float: right;
+	width: 400px;
+	margin-right: 100px;
+}
+
+.waiverforms{
+float: left;
+width: 300px;
+}
+
+.racingforms {
+float: right;
+width: 300px;
+}
+
+#contactform {
+	background-image: url("../images/texturedbgdark.png");
+	width: 800px;
+	height: 400px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+
+textarea {
+	resize: none;
+}
+
+.largeinput {
+	width: 300px;
+	height: 30px;
+}
+#pixel {
+	border: none;
+}	
 /*----------------------------------Footer----------------------------------*/
 footer {
 margin-top: 35px;
