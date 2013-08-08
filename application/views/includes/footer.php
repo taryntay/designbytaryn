@@ -12,7 +12,7 @@
 	</footer>
 	
 		<div id="copyright">
-			<p>Copyright &copy; <?php echo date("Y"); ?> Taryn Taylor Anderson and Design by Taryn</p>
+			<p>Copyright &copy; <?php echo date("Y"); ?> Taryn Taylor Anderson and Design by Taryn | <?php echo anchor('terms', 'Terms &amp; Conditions')?></p>
 		</div>
 
 <script src="http://code.jquery.com/jquery.js"></script>
