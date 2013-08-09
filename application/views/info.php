@@ -40,8 +40,8 @@ Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
 			
 			<div class="middle">
 				<h2>Sponsors</h2>	
-				<img src="<?php echo base_url(); ?>assets/images/tobaccoroad.png">
-				<img src="<?php echo base_url(); ?>assets/images/racing.png">
+				<p><img src="<?php echo base_url(); ?>assets/images/tobaccoroad.png" alt="Tobacco Road Band" /></p>
+				<p><img src="<?php echo base_url(); ?>assets/images/racing.png" alt="Racing" /></p>
 			</div>
 		</div>
 </div>

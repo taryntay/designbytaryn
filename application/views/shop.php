@@ -1,7 +1,7 @@
 <div id="content_wrapper">
 		<div id="event tickets">
 			<h2>Event Tickets</h2>
-			<!--Paypal Add to Cart Code-->
+			<!--    Paypal Add to Cart Code from Paypal.com    -->
 			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 				<input type="hidden" name="cmd" value="_s-xclick">
 				<input type="hidden" name="hosted_button_id" value="93R7PCGEM2L8A">
@@ -21,9 +21,9 @@
 				<input type="image" src="http://www.designbytaryn.com/assets/images/addtocartbutton.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" id="pixel">
 			</form>
-			<!--end paypal code-->
+			<!--end paypal add to cart code-->
 		
-		<!--Paypal View Cart Button -->
+		<!--    Paypal View Cart Button from Paypal.com    -->
 		<div id="viewcart">
 		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
 		<input type="hidden" name="cmd" value="_s-xclick">
@@ -38,11 +38,15 @@
 	
 		<div class="contact_container">
 			<div class="left">
-				<img src="" alt="" />
+				<p><img src="" alt="" /></p>
+				<h2>Item Name</h2>
+				<p>Item description</p>
 			</div>
 		
 			<div class="right">
-				<img src="" alt="" />
+				<p><img src="" alt="" /></p>
+				<h2>Item Name</h2>
+				<p>Item description</p>
 			</div>
 		</div>
 </div>
