@@ -6,9 +6,22 @@
 			parent::__construct();
 			$this->load->helper(array('form', 'url'));
 		}
-
-		function index() //store and load the errors and view.
+		function index()
 		{
+			$is_logged_in = $this->session->userdata('is_logged_in');
+			
+			if(!isset($is_logged_in) || $is_logged_in != true) //validate that user is logged in
+			{
+				echo ('You must be logged in to access this application. <br /><a href="../login">Login Now</a>'); 
+				//if user is not logged in, show error message and login link.
+				die();
+			}else{
+				$this->is_logged_in();
+			}
+		}
+		function is_logged_in() //store and load the errors and view.
+		{	
+	            
 			$data = array(
 				'error' => ' ',
 				'main_content' => 'upload_form'
@@ -19,6 +32,8 @@
 
 		function do_upload() //upload photos
 		{
+			$userData = $this->session->all_userdata();
+		
 			$config['upload_path'] = './thumbs'; //configure the upload path. directs to directory thumbs.
 			$config['allowed_types'] = 'gif|jpg|jpeg|png'; //supported file types.
 			$config['max_size']	= '1000'; //max size allowed. (KB)
@@ -37,28 +52,32 @@
 			}
 		
 			else //if photos can be uploaded.
-			{
+			{	
+				
+				$currentuser = $this->session->userdata('username');
 				$upload_data = $this->upload->data();
            		$data_ary = array(
-                	'title'     => $upload_data['client_name'],
+                	'title'     => $this->input->post('photo_name'),
                 	'file'      => $upload_data['file_name'],
                 	'width'     => $upload_data['image_width'],
                 	'height'    => $upload_data['image_height'],
                 	'type'      => $upload_data['image_type'],
                 	'size'      => $upload_data['file_size'],
                 	'date'      => time(),
+                	'user'		=> $currentuser
             	);
 
             	$this->load->database();
             	$this->db->insert('upload', $data_ary); //store into database table "upload".
-
+								
             	$data = array(
             	'upload_data' => $upload_data,
             	'main_content' => 'upload_success'
             	);
             	
             	$this->load->view('includes/template', $data); //load the upload successful page.
+			}
 		}
-	}
+	
 }
 ?>
