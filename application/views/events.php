@@ -31,7 +31,7 @@ Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p>
 			
 			<div class="middle">
 				<img src="<?php echo base_url(); ?>assets/images/tobaccoroad.png" alt="Tobacco Road Band" />
-				<img src="<?php echo base_url(); ?>assets/images/racing.png" alt="Racing" />
+				<img src="<?php echo base_url(); ?>assets/images/racing2.png" alt="Racing" />
 			</div>
 		</div>
 </div>

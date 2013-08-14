@@ -12,7 +12,7 @@
 			
 			if(!isset($is_logged_in) || $is_logged_in != true) //validate that user is logged in
 			{
-				echo ('You must be logged in to access this application. <br /><a href="../login">Login Now</a>'); 
+				redirect('mustlogin/index');
 				//if user is not logged in, show error message and login link.
 				die();
 			}else{
@@ -37,8 +37,8 @@
 			$config['upload_path'] = './thumbs'; //configure the upload path. directs to directory thumbs.
 			$config['allowed_types'] = 'gif|jpg|jpeg|png'; //supported file types.
 			$config['max_size']	= '1000'; //max size allowed. (KB)
-			$config['max_width']  = '1024'; //max width allowed.
-			$config['max_height']  = '768'; //max height allowed.
+			$config['max_width']  = '1300'; //max width allowed.
+			$config['max_height']  = '900'; //max height allowed.
 
 			$this->load->library('upload', $config); //load the upload library. pass config values.
 

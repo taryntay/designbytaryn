@@ -1,6 +1,6 @@
 $(function () { //the dom-ready function
 	
-	// Gallery
+	// Gallery Slider
     if(jQuery("#gallery").length){
         
         // Declare variables
@@ -27,17 +27,138 @@ $(function () { //the dom-ready function
             return false;
         });
     }
-	
-    var infoPictures = $('#amenitypictures img'); //variable assigned to the anchors of the lis inside the ul of the tabs class.
+    
+	//Info page
+    var racingPicture = $('#racingphoto'); 
 
-    infoPictures.bind("click", function () { //click event assigned to the tabAnchors.
+    racingPicture.bind("click", function () { 
 
-        var that = $(this); //variable assigned to "this" to minimize factories.
+        var that = $(this); 
 
-        $('#amenityinfo').hide(); //The content divs (class of tab) are all told to hide.
-        
-        $('#amenityinforacing').show(); /*The content div with the same name as the anchor href that has been clicked is shown, so that the corresponding content is displayed.*/
+    	$('#amenityinfocamping').hide(); 
+        $('#amenityinfotrails').hide(); 
+        $('#amenityinfomudding').hide(); 
+        $('#amenityinforacing').show(); 
      
-        return false; //Event default cancelled using return false.
+        return false; 
     });
+    
+        var campingPicture = $('#campingphoto');
+
+    campingPicture.bind("click", function () { 
+
+        var that = $(this); 
+
+        $('#amenityinforacing').hide();
+        $('#amenityinfotrails').hide();
+        $('#amenityinfomudding').hide();
+        $('#amenityinfocamping').show(); 
+        
+        return false;
+    });
+    
+        var muddingPicture = $('#muddingphoto'); 
+
+    muddingPicture.bind("click", function () {
+
+        var that = $(this); 
+
+        $('#amenityinforacing').hide();
+        $('#amenityinfotrails').hide(); 
+        $('#amenityinfocamping').hide(); 
+        $('#amenityinfomudding').show();      
+        
+        return false; 
+    });
+    
+        var trailsPicture = $('#trailsphoto'); 
+
+    trailsPicture.bind("click", function () { 
+
+        var that = $(this); 
+
+        $('#amenityinforacing').hide();
+        $('#amenityinfocamping').hide(); 
+        $('#amenityinfomudding').hide(); 
+        $('#amenityinfotrails').show(); 
+        
+        return false; 
+    });
+    
+    //Rules Page
+    var generalRules = $('#general'); 
+
+    generalRules.bind("click", function () { 
+
+        var that = $(this); 
+
+    	$('#changingracing').hide(); 
+        $('#changingracingclass').hide(); 
+        $('#changingmudbog').hide(); 
+        $('#changingminors').hide(); 
+        $('#changinggeneral').show(); 
+     
+        return false; 
+    });
+    
+        var racingRules = $('#racing');
+
+    racingRules.bind("click", function () { 
+
+        var that = $(this); 
+
+    	$('#changinggeneral').hide(); 
+        $('#changingracingclass').hide(); 
+        $('#changingmudbog').hide(); 
+        $('#changingminors').hide(); 
+        $('#changingracing').show(); 
+        
+        return false;
+    });
+    
+        var mudbogRules = $('#mudbog'); 
+
+    mudbogRules.bind("click", function () {
+
+        var that = $(this); 
+
+    	$('#changingracing').hide(); 
+        $('#changingracingclass').hide(); 
+        $('#changinggeneral').hide(); 
+        $('#changingminors').hide(); 
+        $('#changingmudbog').show();    
+        
+        return false; 
+    });
+    
+        var racingclassRules = $('#racingclass'); 
+
+    racingclassRules.bind("click", function () { 
+
+        var that = $(this); 
+
+    	$('#changingracing').hide(); 
+        $('#changinggeneral').hide(); 
+        $('#changingmudbog').hide(); 
+        $('#changingminors').hide(); 
+        $('#changingracingclass').show(); 
+        
+        return false; 
+    });
+    
+        var minorRules = $('#minors'); 
+
+    minorRules.bind("click", function () { 
+
+        var that = $(this); 
+
+    	$('#changingracing').hide(); 
+        $('#changinggeneral').hide(); 
+        $('#changingmudbog').hide(); 
+        $('#changingracingclass').hide(); 
+        $('#changingminors').show(); 
+        
+        return false; 
+    });
+
 });

@@ -1,5 +1,5 @@
 <div id="content_wrapper">
-
+<div id="imagegallery">
 	 <div id="gallery-controls">
    	 <a href="#" id="gallery-prev"><img src="<?php echo base_url(); ?>assets/images/previous.png" alt="" /></a>
    	 </div>
@@ -40,13 +40,12 @@
     <div id="gallery-controls">
     	<a href="#" id="gallery-next"><img src="<?php echo base_url(); ?>assets/images/next.png" alt="" /></a>
 	</div>
-   
-   <div id="facebook">
+				   <div id="facebook">
+			<p class="gallerybutton"><a href="<?php echo site_url(); ?>/upload">UPLOAD A PHOTO</a></p>
 	<div class="fb-like" data-href="http://www.designbytaryn.com/index.php/gallery" data-width="450" data-layout="box_count" data-show-faces="false" data-send="true"></div>
 		<h2><a href="http://www.villagephotography.com/boondocks.html">Order Past Event Photos</a></h2>
-			<p class="gallerybutton"><a href="<?php echo site_url(); ?>/upload">UPLOAD A PHOTO</a></p>
 	</div>
-	
+</div>	
 
 <!--		OLD GALLERY	
 
