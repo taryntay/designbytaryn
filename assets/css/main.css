@@ -509,6 +509,11 @@ ul li{
   float: right;
   width: 285px;
 }
+.right_faq {
+  float: right;
+  width: 285px;
+  margin-right: 50px;
+}
 .right img {
 margin-right: 10px;
 }

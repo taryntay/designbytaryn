@@ -9,8 +9,8 @@
 		<div class="events_container">
 			<div class="left">
 				<h2>Music & Entertainment</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin.</p>
-					<p>Quisque sit amet nisi eu libero elementum bibendum sed vel quam</p>
+					<p>We've got some great entertainment lined up for this month's patriotic weekend.</p>
+					<p>Tobacco Road will be performing their hit song, "Get a Little Loud!" You won't want to miss it!</p>
 					<p><h4>Saturday Night Lineup:</h4> 
 						<ul>
 							<li>DJ 7:30pm</li>
@@ -22,13 +22,11 @@
 			<div class="right">
 				<h2>More Upcoming Events</h2>
 						<h4>September 13th</h4>
-						<p>Nam interdum lobortis justo id sollicitudin.Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p>
+						<p>Labor Day Weekend spectacular at the Boondocks. We will have two great bands performing and a special truck race.</p>
 						<h4>October 21st</h4>
-						<p>Nam interdum lobortis justo id sollicitudin.
-Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p>
-						<h4>November 12th</h4>
-						<p>Am interdum lobortis justo id sollicitudin.
-Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p>
+						<p>Halloween at the Boondocks! Get ready for some crazy Octoberfest festivities and a hit band performing on Saturday night.</p>
+						<h4>December 29th</h4>
+						<p>Ring in the New Year with the Boondocks! We will have fireworks and the Colt Ford Band will be back by popular demand.</p>
 					
 			</div>
 			
