@@ -3,7 +3,7 @@ $(function () { //the dom-ready function
 	// Gallery Slider
     if(jQuery("#gallery").length){
         
-        // Declare variables
+        // gallery variables
         var totalImages = jQuery("#gallery > li").length, 
             imageWidth = jQuery("#gallery > li:first").outerWidth(true),
             totalWidth = imageWidth * totalImages,
@@ -28,7 +28,7 @@ $(function () { //the dom-ready function
         });
     }
     
-	//Info page
+	//Info page clickable images
     var racingPicture = $('#racingphoto'); 
 
     racingPicture.bind("click", function () { 
@@ -85,7 +85,7 @@ $(function () { //the dom-ready function
         return false; 
     });
     
-    //Rules Page
+    //Rules Page clickable navigation tabs
     var generalRules = $('#general'); 
 
     generalRules.bind("click", function () { 

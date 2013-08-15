@@ -17,11 +17,17 @@ class User_model extends CI_Model{
 	
 	function create_user() //create a new user in the Database.
 	{
+	
+		  if (isset($_POST['newsletter'])){
+		  	$newsletter = 'checked';
+			} else {
+			$newsletter = 'not checked';
+  			}
 		
 		$new_user_insert_data = array(
 			'first_name' => $this->input->post('first_name'),
 			'email' => $this->input->post('email'),
-			'newsletter' => $this->input->post('newsletter'),
+			'newsletter' => $newsletter,
 			'username' => $this->input->post('username'),
 			'password' => MD5($this->input->post('password'))
 		);
@@ -31,7 +37,7 @@ class User_model extends CI_Model{
 		return $insert; //return the new user to the controller.
 	}
 	
-	function getUser()
+	function getUser() //get user from table
 	{
 		$query = $this->db->query("SELECT * FROM users");
 		return $query->result(); //pass results user to the controller.

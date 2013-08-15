@@ -15,6 +15,7 @@
 </head>
 
 <body>
+	<!--  Facebook integration script  -->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
   	var js, fjs = d.getElementsByTagName(s)[0];
@@ -22,10 +23,15 @@
   	js = d.createElement(s); js.id = id;
   	js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=539717602746861";
   	fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+	
+	<!--  Header  -->
 	<div id="header">
 		<h1><a href="<?php echo site_url(); ?>/login">Taylor County Boondocks Mud Park</a></h1>
 		<!--<div class="logo"><a href="index.html"><img src="images/transparentlogo.png" alt="Taylor County Boondocks Mud Park"></a></div>-->
+		
+		<!--  Login form  -->
 		<div id="login">
 			<?php
 				if ($this->session->userdata('username') == true)
@@ -46,6 +52,7 @@
 		</div>
 	</div>
 	
+	<!--  Navigation  -->
 	<nav>
 		<ul>
 			<li><a href="<?php echo site_url(); ?>/info">Park Info</a></li>

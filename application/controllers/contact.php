@@ -28,7 +28,7 @@
         		$this->email->subject('Message from TCB Contact');
         		$this->email->message(set_value('message'));
         	
-        		$this->email->send();
+        		$this->email->send(); //sends email
         	
         		echo $this->email->print_debugger();
         		$data['main_content'] = 'contact';

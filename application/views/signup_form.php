@@ -1,5 +1,7 @@
 <div id="content_wrapper">
-	<div id="contactform">
+	
+	<!--  Signup form  -->
+	<div id="signupform">
 		<div id="errors">
 			<?php echo validation_errors('<p class="signuperror">Error: ');?>
 		</div>
@@ -15,7 +17,7 @@
 			<p><input type="text" name="email" id="email" class="largeinput" /></p>
 
 			<h2>Newsletter</h2>
-			<p class="newsletter"><input type="checkbox" name="newsletter" value="newsletter" checked="checked" class="largecheckbox" />Sign up to receive email updates.</p>
+			<p><input type="checkbox" name="newsletter" value="newsletter" checked="checked" class="largecheckbox" />Sign up to receive email updates.</p>
 
 			<h2>Login Info</h2>
 

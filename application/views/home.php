@@ -1,9 +1,11 @@
 <div id="content_wrapper">
+		<!--  Homepage CTA  -->
 		<div id="CTA">
 			<p><a href="<?php echo site_url(); ?>/events"><img src="<?php echo base_url(); ?>assets/images/CTAjuly4th.png" alt="4th of July Event"/></a></p>
 			<p class="ctabutton"><a href="<?php echo site_url(); ?>/shop">BUY TICKETS NOW!</a></p>
 		</div>
-
+		
+		<!--  Homepage 3 Column  -->
 		<div class="events_container">
 			<div class="left">
 				<img src="<?php echo base_url(); ?>assets/images/homeimg1.png" id="column1img" alt="Man on ATV" />
@@ -17,7 +19,7 @@
 						<li>Mud Pits</li>
 						<li>Outdoor stage for concerts</li>
 					</ul>
-				<a href="<?php echo site_url(); ?>/info">learn more about our park.</a>
+				<a href="<?php echo site_url(); ?>/info">learn more about our park</a>
 			</div>
 		
 			<div class="right">
@@ -30,7 +32,7 @@
 						<li>Waiver forms must be signed.</li>
 						<li>Minors need special waivers.</li>
 					</ul>
-				<a href="<?php echo site_url(); ?>/rules">review our rules.</a>
+				<a href="<?php echo site_url(); ?>/rules">review our rules</a>
 			</div>
 			
 			<div class="middle">
@@ -40,7 +42,7 @@
 					<p>Fourth of July Spectacular! Join us at the Boondocks for a weekend full of fireworks, fun and music! Colt ford will be performing live Saturday night.</p>
 				<h4>September 13th-15th</h4>
 					<p>Two great bands will be performing live! The Tobacco Road Band and Lenny Cooper will be playing. There will also be a special drag race Friday night!</p>
-					<p><a href="<?php echo site_url(); ?>/events">view all events.</a></p>
+					<p><a href="<?php echo site_url(); ?>/events">view all events</a></p>
 			</div>
-	</div>
+		</div>
 </div>

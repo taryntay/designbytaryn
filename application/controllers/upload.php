@@ -69,11 +69,15 @@
 
             	$this->load->database();
             	$this->db->insert('upload', $data_ary); //store into database table "upload".
+				
+				$this->load->model('upload_model'); //load the upload model
 								
-            	$data = array(
+            	$data = array( //data to pass to view
             	'upload_data' => $upload_data,
-            	'main_content' => 'upload_success'
+            	'main_content' => 'upload_success',
+            	'results' => $this->upload_model->getPhotos()
             	);
+            	
             	
             	$this->load->view('includes/template', $data); //load the upload successful page.
 			}

@@ -1,3 +1,5 @@
+/* Lightbox 2 CSS for Gallery Image Functionality */
+
 /* line 7, ../sass/lightbox.sass */
 body:after {
   content: url(../images/img/close.png) url(../images/img/loading.gif) url(../images/img/prev.png) url(../images/img/next.png);

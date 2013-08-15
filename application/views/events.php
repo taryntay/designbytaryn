@@ -1,8 +1,11 @@
 <div id="content_wrapper">
+		<!--  Events CTA Poster  -->
 		<div id="CTA">
 			<p><a href="<?php echo site_url(); ?>/events"><img src="<?php echo base_url(); ?>assets/images/CTAjuly4th.png"></a></p>
 			<p class="ctabutton"><a href="<?php echo site_url(); ?>/shop">BUY TICKETS NOW!</a></p>
 		</div>
+		
+		<!--  Events Three Column  -->
 		<div class="events_container">
 			<div class="left">
 				<h2>Music & Entertainment</h2>
