@@ -1,3 +1,15 @@
+	<!--  Navigation  -->
+<nav>
+	<ul>
+		<li><a href="<?php echo site_url(); ?>/info">Park Info</a></li>
+		<li><a href="<?php echo site_url(); ?>/events">Events</a></li>
+		<li><a href="<?php echo site_url(); ?>/gallery">Gallery</a></li>
+		<li><a href="<?php echo site_url(); ?>/rules">Rules</a></li>
+		<li><a href="<?php echo site_url(); ?>/contact">Contact</a></li>
+		<li><a href="<?php echo site_url(); ?>/shop">Buy Tickets</a></li>
+	</ul>
+</nav>
+
 	<!--  Displays errors from previous failed upload.  -->
 	<?php echo $error;?>
 	

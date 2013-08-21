@@ -1,3 +1,15 @@
+<!--  Navigation  -->
+<nav>
+	<ul>
+		<li><a href="<?php echo site_url(); ?>/info" id="selected">Park Info</a></li>
+		<li><a href="<?php echo site_url(); ?>/events">Events</a></li>
+		<li><a href="<?php echo site_url(); ?>/gallery">Gallery</a></li>
+		<li><a href="<?php echo site_url(); ?>/rules">Rules</a></li>
+		<li><a href="<?php echo site_url(); ?>/contact">Contact</a></li>
+		<li><a href="<?php echo site_url(); ?>/shop">Buy Tickets</a></li>
+	</ul>
+</nav>
+
 <div id="content_wrapper">
 		<!--  Amenity Info Text  -->
 		<div id="amenityinforacing">
@@ -6,7 +18,7 @@
 		</div>
 		<div id="amenityinfocamping">
 			<h2>Park Amenities: Camping</h2>
-			<p>All camping at the Boondocks is primitive and included with your entry fee. There are xx acres dedicated to our camping areas so there is plenty of space to set up your camp. Campfires are permitted (unless there is a burn ban)!</p>
+			<p>All camping at the Boondocks is primitive and included with your entry fee. There are 300 acres dedicated to our camping areas so there is plenty of space to set up your camp. Campfires are permitted (unless there is a burn ban)!</p>
 		</div>
 		<div id="amenityinfotrails">
 			<h2>Park Amenities: Trails</h2>

@@ -30,8 +30,10 @@
         	
         		$this->email->send(); //sends email
         	
-        		echo $this->email->print_debugger();
+        		//echo $this->email->print_debugger();
+        		echo "Your message was sent successfully!";
         		$data['main_content'] = 'contact';
+        		
         		$this->load->view('includes/template', $data);
         	}
         }

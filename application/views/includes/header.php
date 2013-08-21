@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name=”description” content=”ATV/UTV Trails, Racing, Mud Bogs and more in Butler, GA.”/>
 	<title>Taylor County Boondocks</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=960" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/main.css" />
 	<link href="<?php echo base_url(); ?>assets/css/lightbox.css" rel="stylesheet" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -51,15 +51,3 @@
 				}?>
 		</div>
 	</div>
-	
-	<!--  Navigation  -->
-	<nav>
-		<ul>
-			<li><a href="<?php echo site_url(); ?>/info">Park Info</a></li>
-			<li><a href="<?php echo site_url(); ?>/events">Events</a></li>
-			<li><a href="<?php echo site_url(); ?>/gallery">Gallery</a></li>
-			<li><a href="<?php echo site_url(); ?>/rules">Rules</a></li>
-			<li><a href="<?php echo site_url(); ?>/contact">Contact</a></li>
-			<li><a href="<?php echo site_url(); ?>/shop">Buy Tickets</a></li>
-		</ul>
-	</nav>
