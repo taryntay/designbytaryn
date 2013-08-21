@@ -453,6 +453,18 @@ margin-left: 20px;
 margin-top: 155px;
 float: left;
 }
+#admingallery {
+	width: 800px;
+}
+#admingallery li{
+float: left; 
+margin: 0 20px 15px 0;
+}
+#admingallery li a img{
+border: 3px solid #4f2b00; 
+height: 160px; 
+width: 160px;
+}
 .fb-like {
 clear: both;
 }
