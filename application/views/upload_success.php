@@ -28,11 +28,12 @@
 			<!--  Pulls image thumbnails from DB  -->
 				<?php 
 					foreach($results as $row){
-						$date = date('m.d.y');
+						$date = date('m.d.y', $row->date);
 				
 						echo '<li><a href="/thumbs/'. $row->file.'" data-lightbox="roadtrip"><img src="/thumbs/'. $row->file.'" alt="'. $row->file .'" title="'. $row->title.' Added by: '. $row->user.' on '. $date.'"></a><br />'. $row->title.'<br />Added by: '. $row->user.'<br />'. $date.'<br /></li>';
 					}
 				?>
+
 			</ul>
     	</div>
     

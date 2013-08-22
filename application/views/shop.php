@@ -60,7 +60,7 @@
 			<div id="itempic">
 				<p><img src="http://i.istockimg.com/file_thumbview_approve/9103441/1/stock-photo-9103441-blank-black-t-shirt-front-with-clipping-path.jpg" alt="TCB Tee" width="150" height="150" /></p></div>
 			<div id="itemdesc"><h2>TCB T-Shirt</h2>
-				<p>Item description item description item description item description item description item description item description item description item description item description.</p>
+				<p>Black T-Shirt available in sizes S-XL (specify at checkout). 100% Cotton with orange Taylor County Boondocks logo on front.</p>
 				
 				<!--  Paypal Add to Cart Button  -->
 				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -82,7 +82,7 @@
 			<div id="itempic">
 				<p><img src="http://i.istockimg.com/file_thumbview_approve/7950006/1/stock-photo-7950006-army-cap-clipping-path-included.jpg" alt="Camo Hat" width="150" height="150" class="itempic" /></p></div>
 			<div id="itemdesc"><h2>Camo Hat</h2>
-					<p>Item description item description item description item description item description item description item description item description item description item description item description.</p>
+					<p>Hat with camouflage graphics and Taylor County Boondocks Mud Park logo on front. One size fits most. Machine washable.</p>
 				
 				<!--  Paypal Add to Cart Button  -->
 				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">

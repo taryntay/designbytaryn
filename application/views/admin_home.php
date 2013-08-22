@@ -49,12 +49,17 @@
 			
 			<div class="middle">
 				<img src="<?php echo base_url(); ?>assets/images/homeimg2.png" id="column2img" alt="People on a truck" />
+				<?php  echo form_open('content/updateEventsHome');?>
+				<textarea rows="20" cols="38" id="home_events" name="home_events">
 				<?php 
 					foreach($results as $row){
 				
 						echo $row->home_events;
 					}
 				?>
+				</textarea>				
+				<input type="submit" value="Update" class="loginbutton">
+				<?php echo form_close();?>
 	
 				
 			</div>

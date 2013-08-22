@@ -30,7 +30,7 @@
 		$this->load->model('user_model');
 		$data['results'] = $this->upload_model->getPhotos();
 		
-      	$data['main_content'] = 'admin_view';
+      	$data['main_content'] = 'admin_gallery';
       	$this->load->view('includes/template', $data);
       }	
       function deletePhoto() //delete a book.

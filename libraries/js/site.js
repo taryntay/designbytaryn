@@ -29,12 +29,13 @@ $(function () { //the dom-ready function
     }
     
 	//Info page clickable images
+	
     var racingPicture = $('#racingphoto'); 
 
     racingPicture.bind("click", function () { 
 
         var that = $(this); 
-
+        
     	$('#amenityinfocamping').hide(); 
         $('#amenityinfotrails').hide(); 
         $('#amenityinfomudding').hide(); 
@@ -46,9 +47,6 @@ $(function () { //the dom-ready function
         var campingPicture = $('#campingphoto');
 
     campingPicture.bind("click", function () { 
-
-        var that = $(this); 
-
         $('#amenityinforacing').hide();
         $('#amenityinfotrails').hide();
         $('#amenityinfomudding').hide();

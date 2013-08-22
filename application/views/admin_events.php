@@ -21,22 +21,32 @@
 		<div class="events_container">
 			<div class="left">
 			
+				<?php  echo form_open('content/updateEventsMusic');?>
+				<textarea rows="20" cols="38" id="events_music" name="events_music">
 				<?php 
 					foreach($results as $row){
 				
 						echo $row->events_music;
 					}
-				?>	
+				?>
+				</textarea>				
+				<input type="submit" value="Update" class="loginbutton">
+				<?php echo form_close();?>		
 			</div>
 		
 			<div class="right">
 						
+				<?php  echo form_open('content/updateEventsUpcoming');?>
+				<textarea rows="20" cols="38" id="events_upcoming" name="events_upcoming">
 				<?php 
 					foreach($results as $row){
 				
 						echo $row->events_upcoming;
 					}
 				?>
+				</textarea>				
+				<input type="submit" value="Update" class="loginbutton">
+				<?php echo form_close();?>	
 					
 			</div>
 			

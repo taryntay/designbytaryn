@@ -78,9 +78,8 @@
 		<div class="rules_container">
 			<div class="waiverforms">
 				<h2>Waiver Forms</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin.</p>
-					<p>Quisque sit amet nisi eu libero elementum bibendum sed vel quam</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum lobortis justo id sollicitudin.</p>
+					<p>Minors must have waiver forms signed when entering the park. Please see special rules for minors above for more information.</p>
+					<p>All park guests must sign a wiver to enter. No waiver = trespassing!</p>
 					<p><a href="<?php echo base_url(); ?>/assets/pdfs/waiver_minor.pdf"><img src="http://www.adobe.com/images/pdficon_large.png" alt="form1" id="pixel" /></a> <a href="<?php echo base_url(); ?>/assets/pdfs/waiver_minor.pdf">for minors</a></p>
 					<p><a href="<?php echo base_url(); ?>/assets/pdfs/waiver_adult.pdf"><img src="http://www.adobe.com/images/pdficon_large.png" alt="form2" id="pixel" /></a> <a href="<?php echo base_url(); ?>/assets/pdfs/waiver_adult.pdf">for adults</a></p>
 			</div>
@@ -88,11 +87,7 @@
 			<div class="racingforms">
 				<h2>Racing Forms</h2>
 					<ol>
-						<li><p>Nam interdum lobortis justo id sollicitudin.Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
-						<li><p>Nam interdum lobortis justo id sollicitudin.
-Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
-						<li><p>Am interdum lobortis justo id sollicitudin.
-Quisque sit amet nisi eu libero elementum bibendum sed vel quam.</p></li>
+						<li><p>Please view the following forms if you are interested in truck or ATV/UTV racing.</p></li>
 					</ol>
 					<p><a href="<?php echo base_url(); ?>/assets/pdfs/racing_trucks.pdf"><img src="http://www.adobe.com/images/pdficon_large.png" alt="form1" id="pixel" /></a> <a href="<?php echo base_url(); ?>/assets/pdfs/racing_trucks.pdf">for trucks</a></p>
 					<p><a href="<?php echo base_url(); ?>/assets/pdfs/racing_atvs.pdf"><img src="http://www.adobe.com/images/pdficon_large.png" alt="form2" id="pixel" /></a> <a href="<?php echo base_url(); ?>/assets/pdfs/racing_atvs.pdf">for ATV/UTVs</a></p>
