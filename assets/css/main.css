@@ -106,6 +106,7 @@ form p {
   background: -ms-linear-gradient(top,  #CD6A00,  #B56222);
   background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
   background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#CD6A00', endColorstr='#B56222');
 }
 .loginbutton:hover {
   color: #FFFFFF !important;
@@ -217,6 +218,7 @@ margin-top: 50px;
   background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
   background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
   text-decoration: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#CD6A00', endColorstr='#B56222');
 }
 .ctabutton:hover {
   color: #FFFFFF !important;
@@ -259,6 +261,7 @@ margin-top: 50px;
   background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
   background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
   width: 200px;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#CD6A00', endColorstr='#B56222');
 }
 .gallerybutton:hover {
   color: #FFFFFF !important;
@@ -288,6 +291,7 @@ margin-top: 50px;
   background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
   background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
   width: 200px;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#CD6A00', endColorstr='#B56222');
 }
 .uploadbutton:hover {
   color: #FFFFFF !important;
@@ -320,6 +324,7 @@ margin-top: 50px;
   background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
   background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
   width: 200px;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#CD6A00', endColorstr='#B56222');
 }
 .contactbutton:hover {
   color: #FFFFFF !important;
@@ -351,6 +356,7 @@ margin-top: 50px;
   background: -webkit-gradient(linear, left top, left bottom, from(#CD6A00), to(#B56222));
   background: -moz-linear-gradient(top,  #CD6A00,  #B56222);
   width: 200px;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#CD6A00', endColorstr='#B56222');
 }
 .signupbutton:hover {
   color: #FFFFFF !important;
@@ -770,6 +776,7 @@ footer a {
 	float:right;
 }
 footer #icons p{
+clear: both;
 float: left;
 margin: 0;
 padding: 0;

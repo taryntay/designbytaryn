@@ -57,6 +57,8 @@ p {
 	<div id="container">
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
+	
+	<p><a href="<?php echo site_url(); ?>/login">Return to the home page.</a></p>
 	</div>
 </body>
 </html>
