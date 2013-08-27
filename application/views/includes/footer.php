@@ -1,10 +1,10 @@
 <footer>
 		<!--  Social Media Icons  -->
 		<div id="icons">
-			<a href="http://www.youtube.com/user/BohicaTrucksInc/videos"><img src="<?php echo base_url(); ?>assets/images/youtubeicon.png" alt="youtube" /></a>
-			<a href="http://www.instagram.com"><img src="<?php echo base_url(); ?>assets/images/instagramicon.png" alt="instagram" /></a>
-			<a href="http://www.twitter.com"><img src="<?php echo base_url(); ?>assets/images/twittericon.png" alt="twitter" /></a>
-			<a href="https://www.facebook.com/TaylorCountyBoondocksMudPark"><img src="<?php echo base_url(); ?>assets/images/facebookicon.png" alt="facebook" /></a>
+			<p><a href="http://www.youtube.com/user/BohicaTrucksInc/videos"><img src="<?php echo base_url(); ?>assets/images/youtubeicon.png" alt="youtube" /></a></p>
+			<p><a href="http://www.instagram.com"><img src="<?php echo base_url(); ?>assets/images/instagramicon.png" alt="instagram" /></a></p>
+			<p><a href="http://www.twitter.com"><img src="<?php echo base_url(); ?>assets/images/twittericon.png" alt="twitter" /></a></p>
+			<p><a href="https://www.facebook.com/TaylorCountyBoondocksMudPark"><img src="<?php echo base_url(); ?>assets/images/facebookicon.png" alt="facebook" /></a></p>
 		</div>
 		
 		<!--  Newsletter Signup  -->

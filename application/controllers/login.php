@@ -3,20 +3,16 @@
     
        function index()  //loads the homepage by default.
         {  
-        
             $is_admin = $this->session->userdata('username');
 			
 			if($is_admin == 'admin') //validate that admin is logged in
 			{
 				$this->is_admin();
 			}else{
-			
-        
-        
-        	$data['main_content'] = 'home'; //dynamically generates the view.
-			$this->load->model('content_model');
-			$data['results'] = $this->content_model->getEventsHome();
-        	$this->load->view('includes/template', $data);
+	        	$data['main_content'] = 'home'; //dynamically generates the view.
+				$this->load->model('content_model');
+				$data['results'] = $this->content_model->getEventsHome();
+        		$this->load->view('includes/template', $data);
         	}
         }  
         function is_admin()

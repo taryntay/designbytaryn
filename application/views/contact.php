@@ -26,7 +26,7 @@
 		<div class="contact_container">
 			<div class="left">
 				<h2>Map and Directions</h2>
-					<p><iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=32.582303,-84.330797&amp;aq=0&amp;oq=96+culverhouse+rd+butler&amp;sll=32.582331,-84.330808&amp;sspn=0.009438,0.011952&amp;ie=UTF8&amp;t=m&amp;ll=32.582331,-84.330797&amp;spn=0.018081,0.021544&amp;z=14&amp;output=embed"></iframe></p><p><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=32.582303,-84.330797&amp;aq=0&amp;oq=96+culverhouse+rd+butler&amp;sll=32.582331,-84.330808&amp;sspn=0.009438,0.011952&amp;ie=UTF8&amp;t=m&amp;ll=32.582331,-84.330797&amp;spn=0.018081,0.021544&amp;z=14" style="text-align:left">View Larger Map</a></p>
+					<p><object width="250" height="250" data="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=32.582303,-84.330797&amp;aq=0&amp;oq=96+culverhouse+rd+butler&amp;sll=32.582331,-84.330808&amp;sspn=0.009438,0.011952&amp;ie=UTF8&amp;t=m&amp;ll=32.582331,-84.330797&amp;spn=0.018081,0.021544&amp;z=14&amp;output=embed"></object></p><p><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=32.582303,-84.330797&amp;aq=0&amp;oq=96+culverhouse+rd+butler&amp;sll=32.582331,-84.330808&amp;sspn=0.009438,0.011952&amp;ie=UTF8&amp;t=m&amp;ll=32.582331,-84.330797&amp;spn=0.018081,0.021544&amp;z=14" style="text-align:left">View Larger Map</a></p>
 			</div>
 		
 			<div class="right">

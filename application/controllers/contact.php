@@ -35,7 +35,7 @@
         		$data['main_content'] = 'contact';
         		
         		$this->load->view('includes/template', $data);
-        	}
+			}
         }
      }  
 ?>

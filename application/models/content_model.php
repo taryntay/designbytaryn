@@ -5,7 +5,6 @@ class Content_model extends CI_Model{
     	{
 			$query = $this->db->query("SELECT * FROM content");
 			return $query->result(); //pass results back to the controller.
-		}
-		
+		}	
 }
 ?>

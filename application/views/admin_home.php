@@ -20,7 +20,7 @@
 		<!--  Homepage 3 Column  -->
 		<div class="events_container">
 			<div class="left">
-				<img src="<?php echo base_url(); ?>assets/images/homeimg1.png" id="column1img" alt="Man on ATV" />
+				<p><img src="<?php echo base_url(); ?>assets/images/homeimg1.png" id="column1img" alt="Man on ATV" /></p>
 				<h2>What we offer</h2>
 				<p>Located on 3000 acres of land in Butler, Georgia, we have plenty of fun to offer!</p>
 					<ul>
@@ -31,11 +31,11 @@
 						<li>Mud Pits</li>
 						<li>Outdoor stage for concerts</li>
 					</ul>
-				<a href="<?php echo site_url(); ?>/info">learn more about our park</a>
+				<p><a href="<?php echo site_url(); ?>/info">learn more about our park</a></p>
 			</div>
 		
 			<div class="right">
-			<img src="<?php echo base_url(); ?>assets/images/homeimg3.png" id="column3img" alt="Kids on ATV" />
+			<p><img src="<?php echo base_url(); ?>assets/images/homeimg3.png" id="column3img" alt="Kids on ATV" /></p>
 				<h2>Come prepared!</h2>
 				<p>To ensure a fun time at the Boondocks, please review our rules and regulations before arriving at an event.</p>
 				<h4>Please remember:</h4>
@@ -44,22 +44,24 @@
 						<li>Waiver forms must be signed.</li>
 						<li>Minors need special waivers.</li>
 					</ul>
-				<a href="<?php echo site_url(); ?>/rules">review our rules</a>
+				<p><a href="<?php echo site_url(); ?>/rules">review our rules</a></p>
 			</div>
 			
 			<div class="middle">
-				<img src="<?php echo base_url(); ?>assets/images/homeimg2.png" id="column2img" alt="People on a truck" />
+				<p><img src="<?php echo base_url(); ?>assets/images/homeimg2.png" id="column2img" alt="People on a truck" /></p>
 				<?php  echo form_open('content/updateEventsHome');?>
-				<textarea rows="20" cols="38" id="home_events" name="home_events">
+				<p><textarea rows="20" cols="38" id="home_events" name="home_events">
 				<?php 
 					foreach($results as $row){
 				
 						echo $row->home_events;
 					}
 				?>
-				</textarea>				
-				<input type="submit" value="Update" class="loginbutton">
+				</textarea></p>				
+				<p><input type="submit" value="Update" class="loginbutton"></p>
 				<?php echo form_close();?>
+				
+				<p><a href="<?php echo site_url(); ?>/events">view all of our events</a></p>	
 	
 				
 			</div>

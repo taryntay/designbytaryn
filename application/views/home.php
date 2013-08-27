@@ -55,6 +55,7 @@
 						echo $row->home_events;
 					}
 				?>
+				<p><a href="<?php echo site_url(); ?>/events">view all of our events</a></p>	
 	
 				
 			</div>

@@ -24,7 +24,7 @@
 						echo '<li><a href="/thumbs/'. $row->file.'" data-lightbox="roadtrip"><img src="/thumbs/'. $row->file.'" alt="'. $row->file .'" title="'. $row->title.' Added by: '. $row->user.' on '. $date.'"></a><br />'. $row->title.'<br />Added by: '. $row->user.'<br />'. $date.'<br />';?>
 						
 		<?php echo form_open("gallery/deletePhoto/$row->id");?>
-			<input type="submit" value="Delete" class="loginbutton">
+			<p><input type="submit" value="Delete" class="loginbutton"></p>
 		<?php echo form_close();?>
 						
 						<?php echo '</li>';

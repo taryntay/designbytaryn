@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=960" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/main.css" />
 	<link href="<?php echo base_url(); ?>assets/css/lightbox.css" rel="stylesheet" />
+	<link href="<?php echo base_url(); ?>assets/images/tcbfavicon.ico" rel="shortcut icon" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="<?php echo base_url(); ?>libraries/js/jquery-1.10.2.min.js"></script>
 	<script src="<?php echo base_url(); ?>libraries/js/lightbox-2.6.min.js"></script>

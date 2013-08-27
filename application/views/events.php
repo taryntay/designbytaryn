@@ -13,7 +13,7 @@
 <div id="content_wrapper">
 		<!--  Events CTA Poster  -->
 		<div id="CTA">
-			<p><a href="<?php echo site_url(); ?>/events"><img src="<?php echo base_url(); ?>assets/images/CTAjuly4th.png"></a></p>
+			<p><a href="<?php echo site_url(); ?>/events"><img src="<?php echo base_url(); ?>assets/images/CTAjuly4th.png" alt="4th of July Banner" /></a></p>
 			<p class="ctabutton"><a href="<?php echo site_url(); ?>/shop">BUY TICKETS NOW!</a></p>
 		</div>
 		
@@ -41,8 +41,8 @@
 			</div>
 			
 			<div class="middle">
-				<img src="<?php echo base_url(); ?>assets/images/tobaccoroad.png" alt="Tobacco Road Band" />
-				<img src="<?php echo base_url(); ?>assets/images/racing2.png" alt="Racing" />
+				<p><img src="<?php echo base_url(); ?>assets/images/tobaccoroad.png" alt="Tobacco Road Band" /></p>
+				<p><img src="<?php echo base_url(); ?>assets/images/racing2.png" alt="Racing" /></p>
 			</div>
 		</div>
 </div>

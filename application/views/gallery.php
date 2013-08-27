@@ -73,15 +73,16 @@
 			<h2><a href="http://www.youtube.com/user/BohicaTrucksInc/videos">View all videos on our Youtube account</a></h2>
 			
 			<div class="left">
-				<iframe width="300" height="215" src="http://www.youtube.com/embed/z2Dh4rWnoAU" frameborder="0" allowfullscreen></iframe>
+				<object width="300" height="215"><param name="movie" value="//www.youtube.com/v/W3YB12vodqY?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/W3YB12vodqY?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="300" height="215" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+
 			</div>
 		
 			<div class="right">
-				<iframe width="300" height="215" src="http://www.youtube.com/embed/z2Dh4rWnoAU" frameborder="0" allowfullscreen></iframe>
+				<object width="300" height="215"><param name="movie" value="//www.youtube.com/v/NH1T0yWJoTQ?hl=en_US&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/NH1T0yWJoTQ?hl=en_US&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="300" height="215" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 			</div>
 			
 			<div class="middle">
-				<iframe width="300" height="215" src="http://www.youtube.com/embed/z2Dh4rWnoAU" frameborder="0" allowfullscreen></iframe>
+				<object width="300" height="215"><param name="movie" value="//www.youtube.com/v/e9B2h9bLEbk?hl=en_US&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/e9B2h9bLEbk?hl=en_US&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="300" height="215" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 			</div>
 		</div>
 </div>

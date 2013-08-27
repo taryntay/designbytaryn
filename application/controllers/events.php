@@ -3,21 +3,20 @@
     
        function index()  //load events view
         {  
-        
-             $is_admin = $this->session->userdata('username');
+            $is_admin = $this->session->userdata('username');
 			
 			if($is_admin == 'admin') //validate that admin is logged in
 			{
 				$this->is_admin();
 			}else{
-        	$data['main_content'] = 'events';
-			$this->load->model('content_model');
-			$data['results'] = $this->content_model->getEventsHome();
-        	$this->load->view('includes/template', $data);
+        		$data['main_content'] = 'events';
+				$this->load->model('content_model');
+				$data['results'] = $this->content_model->getEventsHome();
+        		$this->load->view('includes/template', $data);
         	}
-
         }  
-        function is_admin()
+        
+        function is_admin() //load admin events view if admin logged in.
         {
         		$this->load->model('content_model');
         		$data['results'] = $this->content_model->getEventsHome();
